@@ -1,0 +1,485 @@
+/* 	Sample CSS file for controlling
+	different sizes of screens when 
+	app is loaded on different dev-
+	ces 
+	
+	Written By: Jake brown
+	Date: 		December 17 2014
+	Copy Right: 2014/2015
+	
+	*/
+
+/* For older Iphone/Smart phone devices in portrait */
+@media (max-width: 320px) {
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:250px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 20pt;
+	}
+	input.fields{
+		width:100%;
+		height: 20px;
+		font-size: 12pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 12pt;
+	}
+	/* Register screen */
+
+}
+/* For older Iphone/Smart phone devices in landscape */
+@media (max-width: 480px) and (orientation: landscape) {
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:250px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 20pt;
+	}
+	input.fields{
+		width:100%;
+		height: 20px;
+		font-size: 12pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 12pt;
+	}
+	/* Register screen */
+
+}
+/* For Iphone/Smart phone portrait */
+@media (max-width: 640px) {
+	/* Login screen */
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:250px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 20pt;
+	}
+	input.fields{
+		width:100%;
+		height: 20px;
+		font-size: 12pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 12pt;
+	}
+	/* Register screen */
+
+}
+/* For Iphone/Smart phones in landscape */
+@media (max-width: 960px) and (orientation: landscape) {
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:250px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 20pt;
+	}
+	input.fields{
+		width:100%;
+		height: 20px;
+		font-size: 12pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 12pt;
+	}
+	/* Register screen */
+
+}
+/* For medium tablets */
+@media (max-width: 768px) {
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:400px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 40pt;
+	}
+	input.fields{
+		width:100%;
+		height: 40px;
+		font-size: 24pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 24pt;
+	}
+	/* Register screen */
+
+}
+/* For tablets in landscape */
+@media (max-width: 1024px) and (orientation: landscape) {
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:250px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 20pt;
+	}
+	input.fields{
+		width:100%;
+		height: 20px;
+		font-size: 12pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 12pt;
+	}
+	/* Register screen */
+
+}
+/* For laptops and larger screens */
+@media (min-width: 1024px) {
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:250px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 20pt;
+	}
+	input.fields{
+		width:100%;
+		height: 20px;
+		font-size: 12pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 12pt;
+	}
+	/* Register screen */
+
+}
+/* For laptops and larger screens */
+@media (min-width: 1336px) {
+	/* Login screen */
+	div.enter_screen{
+		background-color: #fff;
+		width:250px;
+		margin: 0 auto;
+		margin-top: 100px;
+		border: 0px solid;
+		border-radius: 15px;
+	}
+	div.bottom_tool_bar{
+		width: 100%;
+		height: 70px;
+		background-color: #bbb;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+		-moz-opacity:0.75;
+		-khtml-opacity: 0.75;
+	}
+	form.sign_in_form{
+		margin-left: 20px;
+	}
+	label.sign_in_form{
+		margin-left: 20px;
+		font-size: 20pt;
+	}
+	input.fields{
+		width:100%;
+		height: 20px;
+		font-size: 12pt;
+	}
+	input.login_button{
+		background-color: #f21;
+		color: white;
+		border-radius:14px;
+	}
+	input.tool_bar_item{
+		width:24%;
+		height:70px;
+		background-color: #bbb;
+		border: 0;
+	}
+	input.tool_bar_item:hover{
+		background-color: grey;
+	}
+	input.tool_bar_item:active{
+		background-color: #444;
+	}
+	label.title{
+		font-size: 12pt;
+	}
+	/* Register screen */
+
+}
+
