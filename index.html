@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="styles.css"/>
-<title>
-	Name of Web App
-</title>
+<title>MyPrintF</title>
+<link href="special.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="colors.js"></script>
 </head>
-<body>
-<div class="enter_screen">
-	<label for="main" class="sign_in_form">Sign In</label></br></br>
-	<form id="main" action="" method="POST" class="sign_in_form">
-		<label for="user" class="title">Email </label><label style="font-size:8pt;color:grey;"> or username</label>
-		<input type="text" name="user" id="user" placeholder="Username" class="fields"/></br>
-		<label for="pass" class="title">Password</label><label style="font-size:8pt;color:blue;" onmouseover="this.style.color='#3bf'" onmouseout="this.style.color='blue'"> | forgot my password</label>
-		<input type="password" id="pass" placeholder="Password" class="fields"/></br>
-		<center><input type="button" id="login" value="Sign in to my account" class="login_button" onmouseover="this.style.backgroundColor='#c00'" onmouseout="this.style.backgroundColor='#f21'"/></br>
-		<label 	style="font-size:8pt;color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">Do you need an account? Sign up in seconds!</label></br>
-		<label style="font-size:8pt;color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">Need help using this app?</label>
-		</center>
-	</form></br>
-	<center>	
-	
-	</center>
-</div>
-<div class="bottom_tool_bar">
+<body id="printFbodyIndex" onload="checkCookie();">
+<table id="topBanner" cellpadding="0" cellspacing="0"><tr><td><img src="images/YellowBud.png" alt="Uh Oh... something isn't right :S" id="icon2"/></td><td align="right"><form id="login" action="login.php" method="post"><label for="username" style="color:white">Username :</label><input name="username" id="usernametop" type="text" size="25" placeholder="Username"/><label for="password" style="color:white">Password :</label><input name="password" id="password" type="password" size="25" placeholder="password"/><input type="submit" value="login"/></form></td><td align="right"><<input type="button" value="Go"/><input type="text" placeholder="Search here..." size="50"/></td><td>-</td></tr></table>
+<table id="menu" cellpadding="0" cellspacing="0"><tr><td></td><td>
 <center>
-<input type="button" class="tool_bar_item" value="BUTTON 1"/>
-<input type="button" class="tool_bar_item" value="BUTTON 2"/>
-<input type="button" class="tool_bar_item" value="BUTTON 3"/>
-<input type="button" class="tool_bar_item" value="BUTTON 4"/>
+<input type="button" name="current" id="buttons" style="background-color:#cf7" value="Home" onMouseOver="changeButtColor(this);" onMouseOut="changeButtColor(this);" onclick="clicked(this);"/>
+<input type="button" id="buttons" style="background-color:white" value="About" onMouseOver="changeButtColor(this);" onMouseOut="changeButtColor(this);" onclick="clicked(this);location.href='aboutUs.html';"/>
+<!--<input type="button" id="buttons" style="background-color:white" value="MyConsole" onMouseOver="changeButtColor(this);" onMouseOut="changeButtColor(this);" onclick="clicked(this);"/>-->
 </center>
+</td></tr></table>
+<div id="newsFeed" align="center">
+<img src="images/logoCurved.png" style="width:30%;padding:20px;"/>
+</div>
+<div align="center"><table><tr><td>
+</td><td><form id="createUser" action="createUser.php" method="post">
+<table><tr><td><label for="username">Username :</label></td><td><input name="username" id="username" type="text" size="50" placeholder="Username"/></td></tr>
+<tr><td><label for="email">Email :</label></td><td><input type="text" name="email" size="50" placeholder="Email"/></td></tr>
+<tr><td><label for="confirmEmail">Confirm Email :</label></td><td><input type="text" name="confirmEmail" size="50" placeholder="Confirm Email"/></td></tr>
+<tr><td><label for="password">Password :</label></td><td><input type="password" name="password" size="50" placeholder="Password"/></td></tr>
+<tr><td><label for="confirmPassword">Confirm Password :</label></td><td><input type="password" name="confirmPassword" size="50" placeholder="Confirm Password"/></td></tr>
+<tr><td></td><td><input type="radio" name="sex" value="male">Male   <input type="radio" name="sex" value="female">Female</td></tr>
+<tr><td></td><td><input type="submit" value="Submit" onclick="setCookie('username',document.getElementById('username').value,1);"/></table></from></td></tr></table>
+<div id="bottomBanner" align="center">
+<p id="bottomText">
+<br><br>
+MyPrintF(c) 2014/2015
+</p>
 </div>
 </body>
-<script type="text/javascript">
-// Javascript goes here
-</script>
 </html>
