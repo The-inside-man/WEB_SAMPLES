@@ -40,11 +40,11 @@
 </center>
 </td></tr></table>
 <?php
-	$usrname = "myprintf";
-	$pass = "April211990!";
-	$hostname = "myprintf.db.10822525.hostedresource.com";
-	$usertable = "users";
-	$dbname = "myprintf";
+	$usrname = "USERNAME FOR DATABASE";
+	$pass = "PASSWORD TO DATABASE!";
+	$hostname = "HOST NAME GOES HERE";
+	$usertable = "USER TABLE HERE";
+	$dbname = "DB NAME HERE";
 
 	$username = $_SESSION['username'];
 	$img = "";
@@ -232,11 +232,11 @@ echo "<table id='profile_main' style='background-color:$color;'>"?>
 <center>
 <?php
 
-            	$host2Name = "myposts.db.10822525.hostedresource.com";
-            	$usr2name = "myposts";
-            	$db2name = "myposts";
-            	$pass = "April211990!";
-            	$user2table = "posts";
+            	$host2Name 	= "HOST NAME FOR COMMENT DATABASE";
+		$usr2name 	= "USERNAME FOR POSTS DB";
+		$db2name 	= "DB NAME FOR POSTS";
+		$pass 		= "PASSWORD FOR DB";
+		$usertable 	= "USERTABLE FOR POSTS/COMMENTS";
 
             	$username = $_SESSION['username'];
 
