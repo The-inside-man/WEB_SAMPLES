@@ -3,15 +3,15 @@
 	session_start();
 				$host2Name 	= "HOST NAME FOR COMMENT DATABASE";
 				$usr2name 	= "USERNAME FOR POSTS DB";
-				$db2name 		= "DB NAME FOR POSTS";
-				$pass 			= "PASSWORD FOR DB";
+				$db2name 	= "DB NAME FOR POSTS";
+				$pass 		= "PASSWORD FOR DB";
 				$usertable 	= "USERTABLE FOR POSTS/COMMENTS";
 
-				$usrname = "USERNAME FOR DATABASE";
-				$pass = "PASSWORD TO DATABASE!";
-				$hostname = "HOST NAME GOES HERE";
-				$usertable = "USER TABLE HERE";
-				$dbname = "DB NAME HERE";
+				$usrname 	= "USERNAME FOR DATABASE";
+				$pass 		= "PASSWORD TO DATABASE!";
+				$hostname 	= "HOST NAME GOES HERE";
+				$usertable 	= "USER TABLE HERE";
+				$dbname 	= "DB NAME HERE";
 
 				$username = $_SESSION['username'];
 				$img = "";
